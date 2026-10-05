@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Adaugat padding, o culoare de fundal și fonturi */
+    padding:20px;
+    background-color: #5a0da8;
+    font-family: "Times new roman";
+}
+
+/* Formularul cu etichetele deasupra câmpurilor. */
+    label, input, select {
+        display: block; 
+        width: 100%; 
+        margin-bottom: 15px; 
+    }
+
+/* COPY-PASTE: Grila responsive automată pentru destinații */
+#destinatii {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/*Aspectul cardurilor*/
+.card {
+    /* Adaugă padding, border, și border-radius vizibile */
+    padding:15px;
+    border: 1px rgb(99, 0, 199) solid;
+    border-radius: 10px;
+}
+
+/* Destinația evidențiată*/
+.featured {
+    /* Schimbă background-color sau border-color pentru a ieși în evidență față de celelalte carduri */
+    background-color: #9a04db93;
+    border-color: #9a04db;
+}
+
+/* COPY-PASTE: Efectele vizuale la trecerea mouse-ului și click[cite: 6] */
+.card:hover { 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+input:focus, select:focus { 
+    outline: 2px solid #5b3fd9; 
+}

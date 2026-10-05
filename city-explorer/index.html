@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> City Explorer </h1>
+            <nav>
+                <ul>
+                    <li><a href="#destinatii">Destinații</a></li>
+                    <li><a href="#planifica">Planifică excursia</a></li>
+                    <li><a href="#recomandari">Recomandări</a></li>
+                </ul>
+    </nav>
+    </header>
+   
+
+    <main>
+        <section id="destinatii">
+            <h2>Destinații</h2>
+            <article class="card featured">
+                <h3>Salonic</h3>
+                <p>Tara: Grecia</p>
+                <p>Salonic este al doilea oraș ca mărime din Grecia și principalul oraș din regiunea greacă Macedonia.</p>
+                <p>Durată recomandată: 4 zile</p>
+            </article>
+            <article class="card">
+                <h3>Tirana</h3>
+                <p>Tara: Albania</p>
+                <p>Tirana este capitala și cel mai mare oraș din Albania.</p>
+                <p>Durată recomandată: 5 zile</p>
+            </article>
+            <article class="card">
+                <h3>Corfu</h3>
+                <p>Tara: Grecia</p>
+                <p>Corfu este o insulă din Grecia, cunoscută pentru frumusețea sa naturală și istoria sa bogată.</p>
+                <p>Durată recomandată: 6 zile</p>
+            </article>
+            <article class="card">
+                <h3>Cracovia</h3>
+                <p>Tara: Polonia</p>
+                <p>Cracovia este al doilea oraș ca mărime și unul dintre cele mai vechi din Polonia.</p>
+                <p>Durată recomandată: 2 zile</p>
+            </article>
+            <article class="card">
+                <h3>Bari</h3>
+                <p>Tara: Italia</p>
+                <p>Bari este un oraș din Italia, situat pe coasa Mării Adriatice.</p>
+                <p>Durată recomandată: 4 zile</p>
+            </article>
+
+        </section>
+
+        <section id="planifica">
+            <h2>Planifică excursia</h2>
+            <label for="name">Nume</label>
+            <input id="name" name="name" type="text">
+            
+            <label for="destination">Destinație</label>
+            <select id="destination" name="destination">
+                <option value="">Alege...</option>
+                <option value="Lisabona">Lisabona</option>
+                <option value="Salonic">Salonic</option>
+                <option value="Tirana">Tirana</option>
+                <option value="Corfu">Corfu</option>
+            </select>
+            
+            <label for="days">Număr de zile</label>
+            <input id="days" name="days" type="number">
+            <button type="submit">Planifică excursia</button>
+        </section>
+
+        <section id="recomandari">
+            <h2>Recomandări</h2>
+            <!-- AICI FACI TU: O listă (<ul> sau <ol>) cu minimum 3 sfaturi de călătorie[cite: 6] -->
+            <ul>
+                <li> Atenție la limitele de lichide din fiecare aeroport!</li>
+                <li> Țineți mereu pașaportul sau actul de identitate la voi!</li>
+                <li> Planificați cu anticipare excursia și rezervați în avans.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer> Ioan Cauc, 2026</footer>
+</body>
+</html>
