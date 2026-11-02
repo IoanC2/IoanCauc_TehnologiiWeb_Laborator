@@ -14,7 +14,7 @@ import {
   totalZile,
 } from './utils/destinatii.js'
 import { fetchUserById, fetchUsers } from './api/orase.js'
-import './style.css'
+import './index.css'
 
 // ===== Laboratorul 2 =====
 
